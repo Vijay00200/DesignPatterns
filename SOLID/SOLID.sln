@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosed", "OpenClosed\Op
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitution", "LiskovSubstitution\LiskovSubstitution.csproj", "{86731179-552F-4ADE-A7DE-1895BF4928CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversion", "DependencyInversion\DependencyInversion.csproj", "{98058CFE-8C65-4E3E-A0BD-BA9ED8C7683E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{86731179-552F-4ADE-A7DE-1895BF4928CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86731179-552F-4ADE-A7DE-1895BF4928CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86731179-552F-4ADE-A7DE-1895BF4928CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98058CFE-8C65-4E3E-A0BD-BA9ED8C7683E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98058CFE-8C65-4E3E-A0BD-BA9ED8C7683E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98058CFE-8C65-4E3E-A0BD-BA9ED8C7683E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98058CFE-8C65-4E3E-A0BD-BA9ED8C7683E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
