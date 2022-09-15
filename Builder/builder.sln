@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilder", "FluentBuil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilder_RecursiveGeneric", "FluentBuilder_RecursiveGeneric\FluentBuilder_RecursiveGeneric.csproj", "{110C2835-6BEB-4F11-A776-6109F5A9EAF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepwiseBuilder", "stepwisebuilder\StepwiseBuilder.csproj", "{B9BA059B-82AC-4BA6-B8F9-1A9F68104952}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{110C2835-6BEB-4F11-A776-6109F5A9EAF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{110C2835-6BEB-4F11-A776-6109F5A9EAF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{110C2835-6BEB-4F11-A776-6109F5A9EAF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9BA059B-82AC-4BA6-B8F9-1A9F68104952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9BA059B-82AC-4BA6-B8F9-1A9F68104952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9BA059B-82AC-4BA6-B8F9-1A9F68104952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9BA059B-82AC-4BA6-B8F9-1A9F68104952}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
