@@ -1,0 +1,45 @@
+//Assignment-->create a class builder
+
+using System;
+using System.Text;
+using System.Collections.Generic;
+
+namespace Coding.Exercise
+{
+    public class CodeBuilder
+    {
+        private string ClassName;
+        private List<(string,string)> fields = new List<(string,string)>();
+        public CodeBuilder(string ClassName)
+        {
+            this.ClassName = ClassName;
+        }
+        
+        public CodeBuilder AddField(string fieldName, string type)
+        {
+            fields.Add((fieldName,type));
+        }
+        
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine($"Public class ${ClassName}")
+            .AppendLine("{");
+            foreach(var field in fields)
+            {
+                sb.Append(" ").AppendLine($"Public {field.Item1} {field.Item2};");
+            }
+            sb.AppendLine("}")
+        }
+        
+    }
+    
+    public class Demo
+    {
+        static void Main(string[] args)
+        {
+            var cb = new CodeBuilder("Person").AddField("Name", "string").AddField("Age", "int");
+            Console.WriteLine(cb);
+        }
+    }
+}
